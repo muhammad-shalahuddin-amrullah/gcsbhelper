@@ -40,5 +40,8 @@
 		"patchedDependencies": {
 			"overlayscrollbars-svelte": "patches/overlayscrollbars-svelte.patch"
 		}
+	},
+	"engines": {
+		"node": ">=18.18.0"
 	}
 }
