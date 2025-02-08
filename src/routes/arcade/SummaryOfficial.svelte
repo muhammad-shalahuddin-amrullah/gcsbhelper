@@ -62,7 +62,7 @@
 <style>
 	.wrapper {
 		text-align: center;
-		width: 750px;
+		width: 700px;
 		max-width: calc(0.9 * var(--screen-width));
 		height: 90%;
 	}
