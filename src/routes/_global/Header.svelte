@@ -23,8 +23,8 @@
 		view-transition-name: header;
 	}
 	header.scrolled {
-		background-color: var(--color-bg);
-		box-shadow: 0 0 0.5rem #ccc;
+		background-color: var(--bg-primary);
+		box-shadow: var(--shadow);
 	}
 
 	nav {
@@ -36,14 +36,14 @@
 		margin-bottom: 0.5rem;
 		padding: 0.75rem 2rem;
 		text-decoration: none;
-		color: #555;
-		font-weight: 600;
+		color: var(--text-color);
+		font-weight: var(--weight-semibold);
 		position: relative;
 		transition: box-shadow 0.15s;
 		border-radius: 99rem;
 
 		&:hover {
-			box-shadow: var(--outer-shadow);
+			box-shadow: var(--shadow);
 		}
 	}
 </style>
